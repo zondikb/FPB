@@ -1,0 +1,11 @@
+.column {
+    display: block;
+    flex-basis: auto !important;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+    padding: 0.75rem;
+}
+.hero.is-primary {
+    /* background-color: #00d1b2; */
+    color: #000084;
+}

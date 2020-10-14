@@ -24,9 +24,14 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bulma/css/bulma.css",
+              "./node_modules/bulma-accordion/dist/css/bulma-accordion.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bulma-accordion/dist/js/bulma-accordion.js",
+              "./node_modules/jquery/dist/jquery.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fpb"
+    }
+  },
+  "defaultProject": "fpb",
+  "cli": {
+    "analytics": "1b9a4ee7-851d-49a2-8450-954e23323774"
+  }
 }
